@@ -9,3 +9,10 @@ xcopy "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User\Default (W
 xcopy "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User\Default.sublime-mousemap" "%destination_folder%" /I /Y
 
 echo Done.
+
+echo Copying Clink configuration files to %destination_folder%...
+
+xcopy "C:\Users\%USERNAME%\AppData\Local\clink\flexprompt_config.lua" "%destination_folder%" /I /Y
+xcopy "C:\Users\%USERNAME%\AppData\Local\clink\clink_settings" "%destination_folder%" /I /Y
+
+echo Done.
