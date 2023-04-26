@@ -1,0 +1,23 @@
+[
+   {"keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
+   {"keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
+   {"keys": ["shift+ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true}},
+   {"keys": ["shift+ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true}},
+   {"keys": ["alt+up"], "command": "swap_line_up" },
+   {"keys": ["alt+down"], "command": "swap_line_down" },
+   {"keys": ["alt+`"], "command": "toggle_terminus_panel"},
+   { "keys": ["alt+]"], "command": "goto_definition" },
+   { "keys": ["alt+left"], "command": "jump_back" },
+   { "keys": ["alt+right"], "command": "jump_forward" },
+   { "keys": ["alt+o"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]} },
+   { "keys": ["alt+shift+o"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"], "side_by_side": true} },
+   { "keys": ["ctrl+,"], "command": "focus_neighboring_group", "args": {"forward": false} },
+   { "keys": ["ctrl+."], "command": "focus_neighboring_group" },
+   { "keys": ["ctrl+shift+,"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+   { "keys": ["ctrl+shift+."], "command": "move_to_neighboring_group" },
+   { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"}, 
+   { "keys": ["ctrl+alt+1"], "command": "annotated_comments"}, 
+
+]
+
+
