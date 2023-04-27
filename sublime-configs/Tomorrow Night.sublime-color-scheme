@@ -1,0 +1,39 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+        "line_highlight": "black",
+        "brackets_options": "foreground bold", 
+        "brackets_foreground": "green"
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+        // {
+        //     "name": "C function calls",
+        //     "scope": "source.c meta.function.c meta.block.c meta.function-call.c variable.function.c",
+        //     "foreground": "var(grey2)"
+        // },
+        // {
+        //     "name": "struct",
+        //     "scope": "source.c meta.function.c meta.block.c meta.block.c meta.block.c meta.function-call.c meta.group.c",
+        //     "foreground": "var(grey2)"
+        // },
+        // {
+        //     "name": "struct members",
+        //     "scope": "source.c meta.function.c meta.block.c meta.block.c meta.block.c meta.function-call.c meta.group.c variable.other.member.c",
+        //     "foreground": "var(grey2)"
+        // },
+
+
+    ],
+}
+
+// source.c meta.function.c meta.block.c meta.function-call.c variable.function.c
+//                   source.c meta.function.c meta.block.c meta.block.c variable.other.member.c
+

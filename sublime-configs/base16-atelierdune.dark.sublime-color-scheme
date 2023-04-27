@@ -1,0 +1,24 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+        "line_highlight": "black",
+        "selection": "teal", 
+        "selection_foreground": "seashell", 
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+        // {
+        //     "scope": "comment", 
+        //     "foreground": "seashell", 
+        //     "background": "steelblue",
+        // }
+
+    ],
+}

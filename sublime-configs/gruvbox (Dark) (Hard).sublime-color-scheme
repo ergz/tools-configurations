@@ -1,0 +1,22 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+        "line_highlight": "black",
+        "brackets_options": "foreground glow bold", 
+        "brackets_foreground": "springgreen",
+        "bracket_contents_options": "foreground glow bold", 
+        "bracket_contents_foreground": "springgreen", 
+        "active_guide": "springgreen", 
+        "stack_guide" : "springgreen"
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+    ],
+}

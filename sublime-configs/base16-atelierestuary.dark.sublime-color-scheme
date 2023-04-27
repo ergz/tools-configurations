@@ -1,0 +1,28 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        "line_highlight": "black",
+        "selection": "rgba(220, 220, 90, 1)", 
+        "selection_foreground": "black", 
+        "caret": "orange", 
+        "find_highlight": "rgba(220, 220, 90, 1)", 
+        "bracket_contents_foreground": "magenta", 
+        "bracket_contents_options": "glow foreground", 
+        "brackets_options": "glow foreground", 
+        "tags_options": "glow",
+        // "active_guide": "magenta", 
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+        {
+            "scope": "source.c++ meta.function.c++ meta.toc-list.full-identifier.c++ entity.name.function.c++",
+            "font_style": "bold"
+        }
+    ],
+}

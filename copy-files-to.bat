@@ -1,17 +1,15 @@
 @echo off
 
-set "source_folder=D:\tools-configurations"
+set "sublime_source_folder=D:\tools-configurations\sublime-configs"
+set "clink_source_folder=D:\tools-configurations\clink-configs"
 
-echo Copying Sublime Text configuration files to their appropriate location...
+echo Copying Sublime Text user files to %USERNAME%...
+xcopy "%sublime_source_folder%\*" "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User" /E /I /Y
 
-xcopy "%source_folder%\Preferences.sublime-settings" "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User" /I /Y
-xcopy "%source_folder%\Default (Windows).sublime-keymap" "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User" /I /Y
-xcopy "%source_folder%\Default.sublime-mousemap" "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User" /I /Y
-xcopy "%source_folder%\atelier-themes\base16-atelierestuary.dark.tmTheme" "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User\atelier-themes" /I /Y
+echo Done.
 
-echo Copying Clink configuration files to their appropriate location...
+echo Copying Clink configuration files to %USERNAME%...
 
-xcopy "%source_folder%\flexprompt_config.lua" "C:\Users\%USERNAME%\AppData\Local\clink" /I /Y
-xcopy "%source_folder%\clink_settings" "C:\Users\%USERNAME%\AppData\Local\clink" /I /Y
+xcopy "%clink_source_folder%\*" "C:\Users\%USERNAME%\AppData\Local\clink" /E /I /Y
 
 echo Done.
