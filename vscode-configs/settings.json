@@ -1,0 +1,45 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "quarto.mathjax.theme": "dark",
+    "editor.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "quarto.render.previewType": "external",
+    "git.enabled": false,
+    "files.hotExit": "off",
+    "window.restoreWindows": "none",
+    "workbench.startupEditor": "none",
+    "editor.minimap.renderCharacters": false, 
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1d1d1d",
+        "editorCursor.foreground": "#1cff8e",
+        "terminalCursor.foreground": "#1cff8e"
+    },
+    "editor.occurrencesHighlight": false, 
+    "editor.cursorStyle": "line",
+    "workbench.colorTheme": "Mariana Pro (Warm)",
+    "explorer.confirmDragAndDrop": false,
+    "editor.dragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "${env:windir}\\System32\\cmd.exe",
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+   
+    
+}
+
