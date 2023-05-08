@@ -1,0 +1,39 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+        "line_highlight": "black", 
+        "caret": "springgreen", 
+        // "selection": "rgba(0, 132, 255, .4)"
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+           {
+                "name": "Punctuation",
+                "foreground": "var(foreground)",
+                "font_style": 0,
+                "scope": "punctuation.separator, punctuation.terminator"
+              },
+              {
+                "name": "Punctuation",
+                "foreground": "var(foreground)",
+                "font_style": 0,
+                "scope": "punctuation.section"
+              },
+              {
+                "name": "Accessor",
+                "foreground": "var(foreground)",
+                "font_style": 0,
+                "scope": "punctuation.accessor"
+              },
+    ],
+}
+
+
+

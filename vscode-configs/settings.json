@@ -2,7 +2,7 @@
     "telemetry.telemetryLevel": "off",
     "quarto.mathjax.theme": "dark",
     "editor.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
-    "editor.fontSize": 18,
+    "editor.fontSize": 19,
     "debug.console.fontSize": 16,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
@@ -15,11 +15,14 @@
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#1d1d1d",
         "editorCursor.foreground": "#1cff8e",
-        "terminalCursor.foreground": "#1cff8e"
+        "terminalCursor.foreground": "#1cff8e", 
+        // "editor.selectionBackground": "#dcdc5a"
+        // "[Mariana Pro (Cool)]": {
+        // }
     },
     "editor.occurrencesHighlight": false, 
     "editor.cursorStyle": "line",
-    "workbench.colorTheme": "Mariana Pro (Warm)",
+    "workbench.colorTheme": "Solarized Dark High Contrast",
     "explorer.confirmDragAndDrop": false,
     "editor.dragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -39,6 +42,7 @@
         }
     },
     "terminal.integrated.persistentSessionReviveProcess": "never",
+    "editor.bracketPairColorization.enabled": false,
    
     
 }
