@@ -4,8 +4,11 @@
     "comments": "solarized just a bit brighter foreground",
     "variables":
     {
+
+
         "black": "#0a2933",
         "black2": "#042029",
+        "black3": "#002B36",
         "blue": "#5a74cf",
         "blue2": "#268bd2",
         "blue3": "#536871",
@@ -14,7 +17,7 @@
         "cyan2": "#219186",
         "cyan3": "#2aa198",
         "cyan4": "#469186",
-        "grey": "#93a1a1",
+        "grey": "#bbbbbb",
         "grey2": "#899090",
         "grey3": "#819090",
         "grey4": "#708284",
@@ -63,7 +66,7 @@
     {
         "foreground": "var(grey)",
         // "foreground": "var(light_yellow)",
-        "background": "var(black2)",
+        "background": "var(black3)",
         "caret": "orange",
         "invisibles": "var(black)",
         "line_highlight": "var(dark_purple)",
