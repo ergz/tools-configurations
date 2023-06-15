@@ -13,7 +13,7 @@
     "workbench.startupEditor": "none",
     "editor.minimap.renderCharacters": false, 
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#1d1d1d",
+        // "editor.lineHighlightBackground": "#000000",
         "editorCursor.foreground": "#1cff8e",
         "terminalCursor.foreground": "#1cff8e", 
         // "editor.selectionBackground": "#dcdc5a"
@@ -22,7 +22,7 @@
     },
     "editor.occurrencesHighlight": false, 
     "editor.cursorStyle": "line",
-    "workbench.colorTheme": "Solarized Dark High Contrast",
+    "workbench.colorTheme": "Tomorrow Night Blue",
     "explorer.confirmDragAndDrop": false,
     "editor.dragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -43,7 +43,7 @@
     },
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "editor.bracketPairColorization.enabled": false,
-   
+   "editor.cursorSmoothCaretAnimation": "off",
     
 }
 

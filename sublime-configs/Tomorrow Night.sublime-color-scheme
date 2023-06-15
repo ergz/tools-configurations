@@ -2,9 +2,12 @@
     // http://www.sublimetext.com/docs/3/color_schemes.html
     "variables": {
         // "green": "#FF0000",
+        "off_black": "#1a1a1a",
+        "dark_purple": "#1b112e",
     },
     "globals": {
         // "foreground": "var(green)",
+        // "background": "var(off_black)",
         "line_highlight": "black",
         "brackets_options": "foreground bold", 
         "brackets_foreground": "green"
@@ -28,8 +31,7 @@
         //     "name": "struct members",
         //     "scope": "source.c meta.function.c meta.block.c meta.block.c meta.block.c meta.function-call.c meta.group.c variable.other.member.c",
         //     "foreground": "var(grey2)"
-        // },
-
+        // },, 
 
     ],
 }

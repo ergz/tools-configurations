@@ -1,0 +1,29 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+        "blue8": "#002859",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+        // "background": "var(blue8)",
+        "caret": "springgreen", 
+        // "line_highlight": "black",
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+
+        // overwrite to make go not as "red"
+        {
+            "scope": "source.go meta.block.go variable.other.go",
+            "foreground": "var(white)"
+        }, 
+        {
+            "scope": "source.go meta.block.go variable.function.go",
+            "foreground": "var(white3)"
+        }
+    ],
+}

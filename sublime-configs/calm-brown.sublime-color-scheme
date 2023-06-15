@@ -1,0 +1,61 @@
+{
+    "variables": {
+        // Define variables here
+        "brown": "#362f2d",
+        "orange1": "#f08139",
+        "orange2": "#d28d49",
+        "yellow": "#f8c555",
+        "cyan": "#67cdcc",
+        "green": "#7ec699",
+        "white": "#cccac2",
+        "grey": "#999999",
+        "purple": "#cc99c3"
+
+
+        
+
+
+    },
+    "globals": {
+        "foreground": "var(white)",
+        "background": "var(brown)",
+        "accent": "var(white)",
+        "selection": "var(green)",
+        "line_highlight": "black",
+        "caret": "springgreen"
+    },
+    "rules": [
+        {
+            "scope": "string",
+            "foreground": "var(green)",
+        },
+        {
+            "scope": "variable",
+            "foreground": "",
+        },
+        {
+            "scope": "keyword",
+            "foreground": "",
+        },
+        {
+            "scope": "constant",
+            "foreground": "",
+        },
+        {
+            "scope": "source.c++ meta.struct.c++ meta.block.c++ storage.type.c", 
+            "foreground": "var(yellow)"
+        }, 
+        {
+            "scope": "storage.modifier", 
+            "foreground": "var(purple)"
+        }, 
+        {
+            "scope": "keyword.operator", 
+            "foreground": "var(cyan)"
+        }, 
+        {
+            "scope": "variable.other.readwrite.member",
+            "foreground": "var(orange2)"
+        }
+    ]
+}

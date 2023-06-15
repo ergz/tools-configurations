@@ -1,0 +1,20 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+         {
+      "name": "Operator", // HERE
+      "scope": "meta.brackets entity.name.function.operator, punctuation.separator entity.name.function.operator",
+      "foreground": "#f7f1ff"
+    },
+    ],
+}

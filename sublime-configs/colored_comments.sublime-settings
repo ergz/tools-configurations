@@ -1,3 +1,74 @@
 {
-    
+    // Enable debug logging
+    "debug": false,
+    // Enables continued matching of the previous tag
+    "continued_matching": true,
+    // Character to continue matching on
+    "continued_matching_pattern": "-",
+    // Shows comment icon next to comments
+    "comment_icon_enabled": false,
+    // Which comment icon to use
+    // Valid options: comment, dots
+    "comment_icon": "dots",
+    // Ignored Syntax List
+    "disabled_syntax": [
+        "Packages/Text/Plain text.tmLanguage",
+        "Packages/Markdown/MultiMarkdown.sublime-syntax",
+        "Packages/Markdown/Markdown.sublime-syntax"
+    ],
+    // This is the list of tags/identifiers you want to highlight
+    // in your code.
+    "tags": {
+        // Friendly name for you to know what the purpose is
+        // and used in the OrderedDict
+        // These should be unique
+        "Important": {
+            // The name of the scope being use in your color scheme file
+            "scope": "comments.important",
+            // The actual identifier used to highlight the comments
+            "identifier": "!",
+            // Enables sublime.DRAW_SOLID_UNDERLINE
+            // Only noticable if outline = true
+            "underline": false,
+            // Enables sublime.DRAW_STIPPLED_UNDERLINE
+            // Only noticable if outline = true
+            "stippled_underline": false,
+            // Enables sublime.DRAW_SSQUIGGLY_UNDERLINE
+            // Only noticable if outline = true
+            "squiggly_underline": false,
+            // Enables sublime.DRAW_NO_FILL
+            // This disables coloring of text
+            // and allows for the outline of the text
+            "outline": false,
+            // Treats the identifier
+            // as an regular expression
+            "is_regex": false,
+            // Enables ignorecase for the ideentifier
+            "ignorecase": true,
+        },
+        "Deprecated": {
+            "scope": "comments.deprecated",
+            "identifier": "*",
+        },
+        "Question": {
+            "scope": "comments.question",
+            "identifier": "?",
+        },
+        "TODO": {
+            "scope": "comments.todo",
+            "identifier": "TODO",
+            "is_regex": false,
+            "ignorecase": false,
+        },
+        "FIXME": {
+            "scope": "comments.fixme",
+            "identifier": "FIXME",
+            "is_regex": false
+        },
+        "UNDEFINED": {
+            "scope": "comments.undefined",
+            "identifier": "//[:]?",
+            "is_regex": true
+        }
+    }
 }

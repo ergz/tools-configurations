@@ -69,13 +69,13 @@
         "background": "var(black3)",
         "caret": "orange",
         "invisibles": "var(black)",
-        "line_highlight": "var(dark_purple)",
+        "line_highlight": "var(actual_black)",
         "selection": "var(navy_blue)", 
         "selection_foreground": "var(light_yellow)",
         "bracket_contents_options": "foreground glow", 
         "brackets_options": "foreground",
-        "brackets_foreground": "gold", 
-        "bracket_contents_foreground": "gold", 
+        "brackets_foreground": "#56fc03", 
+        "bracket_contents_foreground": "#56fc03",
         "gutter_foreground_highlight": "gold",
 
     },
@@ -622,9 +622,11 @@
             "foreground": "var(cyan)"
         },
         {
+            // this is the sinf function getting light grey color
             "name": "C: Function",
             "scope": "support.function.C99.c, support.function.any-method.c, entity.name.function.c",
-            "foreground": "var(blue3)"
+            "foreground": "var(grey)"
+            // "foreground": "var(red4)"
         },
         {
             "name": "C: \"",

@@ -11,7 +11,7 @@ flexprompt.settings.use_8bit_color = true
 flexprompt.settings.flow = "concise"
 flexprompt.settings.right_frame = "none"
 -- flexprompt.settings.right_prompt = "{time:format=%a %m/%d/%y %I:%M%p}"
-flexprompt.settings.left_prompt = "{python:always}{user:type=computer}{battery}{histlabel}{cwd:type=rootsmart}{git:nostaged:noaheadbehind:showremote:nountracked}"
+flexprompt.settings.left_prompt = "{python:always}{user:type=computer}{battery}{histlabel}{cwd:type=rootsmart:shorten}{git:nostaged:noaheadbehind:showremote:nountracked}"
 flexprompt.settings.lines = "two"
 flexprompt.settings.spacing = "normal"
 flexprompt.settings.connection = "disconnected"
