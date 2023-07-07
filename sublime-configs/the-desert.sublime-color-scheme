@@ -1,0 +1,193 @@
+{
+    "name": "The-Desert",
+    "author": "emanuel",
+    "variables":
+    {
+        "black": "#000000",
+        "black2": "#004000",
+        "blue": "#67beeb",
+        "green": "#98fb98",
+        "green2": "#8acf4b",
+        "grey": "#49483e",
+        "grey2": "#3b3a32",
+        "grey3": "#333333",
+        "orange": "#9d550f",
+        "orange2": "#daa520",
+        "orange3": "#ffe792",
+        "orange4": "#ffdead",
+        "purple": "#ae81ff",
+        "red": "#cd5c5c",
+        "red2": "#ffa0a0",
+        "white": "#fff8dc",
+        "white2": "#f8f8f0",
+        "white3": "#c6e2ff",
+        "yellow": "#afb76b"
+    },
+    "globals":
+    {
+        "foreground": "var(white)",
+        "background": "var(grey3)",
+        "caret": "var(white)",
+        "invisibles": "var(grey2)",
+        "line_highlight": "black",
+        "selection": "var(grey)",
+        "selection_border": "var(blue)",
+        "active_guide": "color(var(orange) alpha(0.69))",
+        "find_highlight_foreground": "var(black)",
+        "find_highlight": "var(orange3)",
+        "brackets_options": "foreground glow",
+        "brackets_foreground": "var(blue)",
+        "bracket_contents_options": "foreground underline glow",
+        "bracket_contents_foreground": "var(blue)",
+        "tags_options": "stippled_underline"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(white3)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(white3)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(orange2)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(green2)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(yellow)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(orange4)",
+            "font_style": "underline"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(orange4)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(yellow)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(orange4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white2)",
+            "background": "var(red)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white2)",
+            "background": "var(purple)"
+        },
+        {
+            "name": "JSON String",
+            "scope": "meta.structure.dictionary.json string.quoted.double.json",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "color(var(orange4) alpha(0.38))"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(white)",
+            "background": "color(var(red) alpha(0.25))"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(white)",
+            "background": "color(var(green2) alpha(0.13))"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(white)",
+            "background": "color(var(white3) alpha(0.13))"
+        },
+        {
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "color(var(orange4) alpha(0.88))"
+        },
+        {
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(orange2)"
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "name": "Gotham",
+    "author": "Unknown",
+    "variables":
+    {
+        "black": "#0a0f14",
+        "blue": "#33859d",
+        "blue2": "#245361",
+        "blue3": "#093748",
+        "blue4": "#888ba5",
+        "cyan": "#26a98b",
+        "cyan2": "#98d1ce",
+        "orange": "#edb54b",
+        "orange2": "#d26939",
+        "purple": "#ae81ff",
+        "red": "#c33027",
+        "red2": "#f92672",
+        "white": "#f8f8f0",
+        "white2": "#d3ebe9"
+    },
+    "globals":
+    {
+        "foreground": "var(cyan2)",
+        "background": "var(black)",
+        "caret": "var(cyan2)",
+        "invisibles": "var(blue2)",
+        "line_highlight": "var(blue2)",
+        "selection": "var(blue2)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(orange2)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(orange)",
+            "font_style": "underline"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(orange)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(cyan2)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(cyan)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "var(red2)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "var(purple)"
+        }
+    ]
+}

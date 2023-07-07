@@ -7,9 +7,13 @@
 	[
 		"A File Icon",
 		"Alabaster Color Scheme",
+		"Clang Format",
 		"Dockerfile Syntax Highlighting",
+		"Gofmt",
 		"Golang Build",
 		"gruvbox",
+		"LSP",
+		"LSP-gopls",
 		"MasmAssembly",
 		"Package Control",
 		"PackageDev",

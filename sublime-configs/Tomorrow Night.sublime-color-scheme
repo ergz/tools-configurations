@@ -33,6 +33,20 @@
         //     "foreground": "var(grey2)"
         // },, 
 
+        // make go look not so red
+        {
+            "scope": "source.go meta.block.go variable.other.go", 
+            "foreground": "var(grey2)"
+        }, 
+        {
+            "scope": "source.go meta.block.go variable.function.go",
+            "foreground": "var(blue)"
+        }, 
+        {
+            "scope": "source.go meta.block.go variable.other.readwrite.declaration.go",
+            "foreground": "var(grey2)"
+        }
+
     ],
 }
 

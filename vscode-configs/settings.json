@@ -4,7 +4,7 @@
     "editor.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
     "editor.fontSize": 19,
     "debug.console.fontSize": 16,
-    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontSize": 19,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "quarto.render.previewType": "external",
     "git.enabled": false,
@@ -19,10 +19,11 @@
         // "editor.selectionBackground": "#dcdc5a"
         // "[Mariana Pro (Cool)]": {
         // }
+        
     },
     "editor.occurrencesHighlight": false, 
     "editor.cursorStyle": "line",
-    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
     "explorer.confirmDragAndDrop": false,
     "editor.dragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -43,7 +44,48 @@
     },
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "editor.bracketPairColorization.enabled": false,
-   "editor.cursorSmoothCaretAnimation": "off",
-    
+    "editor.cursorSmoothCaretAnimation": "off",
+    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "editor.tokenColorCustomizations": {
+        "[Monokai Pro (Filter Ristretto)]": {
+            "textMateRules": [
+                {
+                    "scope": "punctuation", 
+                    "settings": {
+                        "foreground": "#c2bbbb",
+                        // "fontStyle": "bold"
+                    }
+                }, 
+                {
+                    "scope": "meta.brace.square", 
+                    "settings": {
+                        "foreground": "#c2bbbb",
+                        // "fontStyle": "bold"
+                    }
+                }, 
+                {
+                    "scope": "meta.brace.round", 
+                    "settings": {
+                        "foreground": "#c2bbbb",
+                        // "fontStyle": "bold"
+                    }
+                }
+            ], 
+            "comments": "#8ca0a0"
+        }
+    },
+    "editor.stickyScroll.enabled": true, 
+    "[c]": {
+        "editor.formatOnSave": true
+    }, 
+    "[cpp]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Left, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0}",
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AlignConsecutiveAssignments: false, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Left, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0}", 
+    "editor.semanticHighlighting.enabled": false,
 }
 

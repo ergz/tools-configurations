@@ -9,6 +9,10 @@
         // "background": "var(blue8)",
         "caret": "springgreen", 
         // "line_highlight": "black",
+        "block_caret": "springgreen", 
+        "block_caret_border": "black", 
+        "block_caret_corner_style": "round",
+        "block_caret_corner_radius": "3"
     },
     "rules": [
         {
@@ -24,6 +28,14 @@
         {
             "scope": "source.go meta.block.go variable.function.go",
             "foreground": "var(white3)"
-        }
+        }, 
+        // {
+        //     "scope": "source.go meta.block.go variable.other.readwrite.declaration.go",
+        //     "foreground": "var(red4)"
+        // },
+        // {
+        //     "scope": "source.go variable.other.readwrite.declaration.go",
+        //     "foreground": "var(white)"
+        // }
     ],
 }
