@@ -1,0 +1,279 @@
+{
+    "variables": {
+        // Define variables here
+        "foreground-base": "rgba(249, 250, 251, 1)",
+        "background-base": "#111827"
+    },
+    "globals": {
+        "foreground": "color(var(foreground-base) alpha(0.4392156862745098))",
+        "background": "color(var(background-base)",
+        "accent": "",
+        "selection": "",
+        "line_highlight": "black", 
+        "caret": "springgreen",
+        "selection": "color(var(foreground-base) alpha(0.058823529411764705))"
+    },
+    "rules": [
+        {
+            "scope": "variable.parameter.function",
+            "foreground": "color(var(foreground-base) alpha(0.7019607843137254))"
+        },
+        {
+            "scope": "comment punctuation.definition.comment",
+
+            "foreground": "color(var(foreground-base) alpha(0.1803921568627451))"
+            
+        },
+        {
+            "scope":
+            "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array",
+            
+            "foreground": "color(var(foreground-base) alpha(0.7019607843137254))"
+            
+        },
+        {
+            "scope": "none",
+            
+            "foreground": "color(var(foreground-base) alpha(0.7019607843137254))"
+            
+        },
+        {
+            "scope": "keyword.operator",
+            
+            "foreground": "color(var(foreground-base) alpha(0.7019607843137254))"
+            
+        },
+        {
+            "scope": "keyword",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4196078431372549))"
+            
+        },
+        {
+            "scope": "variable",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4392156862745098))"
+            
+        },
+        {
+            "scope":
+            "entity.name.function, meta.require, support.function.any-method",
+            
+            "foreground": "color(var(foreground-base) alpha(0.3764705882352941))"
+            
+        },
+        {
+            "scope": "support.class, entity.name.class, entity.name.type.class",
+            
+            "foreground": "color(var(foreground-base) alpha(0.6))"
+            
+        },
+        {
+            "scope": "meta.class",
+            
+            "foreground": "color(var(foreground-base) alpha(0.9607843137254902))"
+            
+        },
+        {
+            "scope": "keyword.other.special-method",
+            
+            "foreground": "color(var(foreground-base) alpha(0.3764705882352941))"
+            
+        },
+        {
+            "scope": "storage",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4196078431372549))"
+            
+        },
+        {
+            "scope": "support.function",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5019607843137255))"
+            
+        },
+        {
+            "scope": "string, constant.other.symbol, entity.other.inherited-class",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5411764705882353))"
+            
+        },
+        {
+            "scope": "constant.numeric",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "none",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "none",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "constant",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "entity.name.tag",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4392156862745098))"
+            
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "entity.other.attribute-name.id, punctuation.definition.entity",
+            
+            "foreground": "color(var(foreground-base) alpha(0.3764705882352941))"
+            
+        },
+        {
+            "scope": "meta.selector",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4196078431372549))"
+            
+        },
+        {
+            "scope": "none",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope":
+            "markup.heading punctuation.definition.heading, entity.name.section",
+            
+            "foreground": "color(var(foreground-base) alpha(0.3764705882352941))"
+        },
+        {
+            "scope": "keyword.other.unit",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "markup.bold, punctuation.definition.bold",
+            "foreground": "color(var(foreground-base) alpha(0.6))"
+        },
+        {
+            "scope": "markup.italic, punctuation.definition.italic",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4196078431372549))"
+
+        },
+        {
+            "scope": "markup.raw.inline",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5411764705882353))"
+            
+        },
+        {
+            "scope": "string.other.link, punctuation.definition.string.end.markdown",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4392156862745098))"
+            
+        },
+        {
+            "scope": "meta.link",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "markup.list",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4392156862745098))"
+            
+        },
+        {
+            "scope": "markup.quote",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5686274509803921))"
+            
+        },
+        {
+            "scope": "meta.separator",
+            
+            "foreground": "color(var(foreground-base) alpha(0.7019607843137254))"
+            
+        },
+        {
+            "scope": "markup.inserted",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5411764705882353))"
+            
+        },
+        {
+            "scope": "markup.deleted",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4392156862745098))"
+            
+        },
+        {
+            "scope": "markup.changed",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4196078431372549))"
+            
+        },
+        {
+            "scope": "constant.other.color",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5019607843137255))"
+            
+        },
+        {
+            "scope": "string.regexp",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5019607843137255))"
+            
+        },
+        {
+            "scope": "constant.character.escape",
+            
+            "foreground": "color(var(foreground-base) alpha(0.5019607843137255))"
+            
+        },
+        {
+            "scope": "punctuation.section.embedded, variable.interpolation",
+            
+            "foreground": "color(var(foreground-base) alpha(0.4196078431372549))"
+            
+        },
+        {
+            "scope": "invalid.illegal",
+            
+            "foreground": "color(var(foreground-base) alpha(0.9607843137254902))"
+            
+        },
+        {
+            "scope": "invalid.broken",
+            
+            "foreground": "color(var(foreground-base) alpha(0))"
+        },
+        {
+            "scope": "invalid.deprecated",
+            
+            "foreground": "color(var(foreground-base) alpha(0.9607843137254902))"
+            
+        },
+        {
+            "scope": "invalid.unimplemented",
+            
+            "foreground": "color(var(foreground-base) alpha(0.9607843137254902))"
+            
+        },
+    ]
+}

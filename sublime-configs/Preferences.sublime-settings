@@ -14,14 +14,14 @@
 		"no_bold"
 	],
 	"translate_tabs_to_spaces": true,
-	"color_scheme": "Monokai Pro (Filter Ristretto).sublime-color-scheme",
+	"color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_theme": "Default.sublime-theme",
 	"hot_exit": "disabled",
 	"drag_text": false,
 	"themed_title_bar": true,
 	"index_exclude_gitignore": false,
-	"animation_enabled": true,
+	"animation_enabled": false,
 	"scroll_speed": 5.0,
 	"indent_guide_options": [
 		// "draw_normal",
@@ -44,4 +44,8 @@
 	"block_caret": false,
 	"auto_complete_include_snippets": false,
 	"match_brackets_content": true,
+		"tree_animation_enabled": false,
+			/*"animation_enabled": false,*/
+
+
 }

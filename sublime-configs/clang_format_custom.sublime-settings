@@ -12,7 +12,7 @@
     //     Chromium 
     //     Mozilla 
     //     WebKit 
-    "BasedOnStyle": "LLVM",
+    "BasedOnStyle": "Google",
     
     // The extra indent or outdent of access modifiers, e.g. "public":.    
 //  "AccessModifierOffset": 2,
@@ -223,7 +223,7 @@
 
     // If true, analyze the formatted file for the most common alignment of 
     // & and *. PointerAlignment is then used only as fallback.
-//  "DerivePointerAlignment": true,
+ "DerivePointerAlignment": false,
 
     // Disables formatting completely.
 //  "DisableFormat": false,
@@ -344,7 +344,7 @@
     //     PAS_Left   (in configuration: Left) Align pointer to the left.
     //     PAS_Right  (in configuration: Right) Align pointer to the right.
     //     PAS_Middle (in configuration: Middle) Align pointer in the middle.
- "PointerAlignment": "Left",
+ "PointerAlignment": "Right",
 
     // If true, a space may be inserted after C style casts.
 // "SpaceAfterCStyleCast": true,

@@ -17,6 +17,7 @@
    { "keys": ["ctrl+shift+."], "command": "move_to_neighboring_group" },
    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"}, 
    { "keys": ["ctrl+alt+1"], "command": "annotated_comments"}, 
+   { "keys": ["alt+\\"], "command": "toggle_side_bar" },
 
 ]
 

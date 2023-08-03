@@ -24,7 +24,7 @@
         "background": "var(black)",
         "caret": "var(cyan2)",
         "invisibles": "var(blue2)",
-        "line_highlight": "var(blue2)",
+        "line_highlight": "black",
         "selection": "var(blue2)"
     },
     "rules":

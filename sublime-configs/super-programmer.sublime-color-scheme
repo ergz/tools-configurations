@@ -1,0 +1,70 @@
+{
+    "variables": {
+        // these are just for reference
+        "black": "#000000", 
+        "grey": "#666666", 
+        "brown": "#b99468", 
+        "brown2": "#f0c674",
+        "orange": "#f09f00",
+        "red": "#bd2d2d",
+        "red2": "#de451e"
+    },
+    "globals": {
+        "foreground": "#b99468",
+        "background": "#000000",
+        "accent": "",
+        "selection": "",
+        "line_highlight": "black", 
+        "caret": "orange",    
+    },
+    "rules": [
+        {
+            "scope": "string",
+            "foreground": "#f09f00",
+        },
+        {
+            "scope": "variable",
+            "foreground": "#b99468",
+        },
+        {
+            "scope": "keyword",
+            "foreground": "#b99468",
+        },
+        {
+            "scope": "constant",
+            "foreground": "#f09f00",
+        },
+        {
+            "scope": "constant.numeric", 
+            "foreground": "#f09f00",
+        },
+        {
+            "scope": "storage", 
+            "foreground": "#f0c674"
+        }, 
+        {
+            "scope": "comment", 
+            "foreground": "#666666"
+        }, 
+        {
+            "scope": "keyword.operator", 
+            "foreground": "#bd2d2d"
+        }, 
+        {
+            "scope": "keyword.declaration", 
+            "foreground": "#f0c674"
+        },
+        {
+            "scope": "entity.name.function", 
+            "foreground": "#de451e"
+        }, 
+        {
+            "scope": "meta.function meta.block meta.function-call variable.function", 
+            "foreground": "#de451e"
+        }, 
+        {
+            "scope": "source.c meta.preprocessor.include.c keyword.control.import.include.c", 
+            "foreground": "#605580"
+        }
+    ]
+}
