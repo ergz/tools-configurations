@@ -1,0 +1,83 @@
+{
+    "variables": {
+        "black": "#2b2b2b", 
+        "white": "#f8f8f2",
+        "green": "#abe338",
+        "orange": "#ffa07a", 
+        "yellow": "#ffd700",
+        "purple": "#dcc6e0",
+        "grey": "#d4d0ab", 
+        "blue": "#00e0e0",
+
+    },
+    "globals": {
+        "foreground": "var(white)",
+        "background": "var(black)",
+        "accent": "var(green)",
+        "selection": "rgba(255, 255, 255, .2)",
+        "line_highlight": "black",
+        "caret": "springgreen"
+    },
+    "rules": [
+        {
+            "scope": "string",
+            "foreground": "var(yellow)",
+        },
+        {
+            "scope": "variable",
+            "foreground": "var(blue)",
+        },
+        {
+            "scope": "keyword",
+            "foreground": "var(orange)",
+        },
+        {
+            "scope": "constant",
+            "foreground": "var(yellow)",
+        },
+        {
+            "scope": "keyword.operator", 
+            "foreground": "var(white)"
+        }, 
+        {
+            "scope": "constant.numeric", 
+            "foreground": "var(purple)"
+        }, 
+        {
+            "scope": "variable.function, meta.function-call, meta.function-call.method", 
+            "foreground": "var(green)"
+        }, 
+        {
+            "scope": "source.c meta.struct.c meta.block.c", 
+            "foreground": "var(blue)"
+        }, 
+        {
+            "scope": "storage", 
+            "foreground": "var(white)"
+        }, 
+        {
+            "scope": "source.c meta.struct.c meta.block.c punctuation.section.block.end.c", 
+            "foreground": "var(white)"
+        }, 
+        {
+            "scope": "entity.name.stuct",
+            "foreground": "var(yellow)"
+        }, 
+        {
+            "scope": "entity.name.function",
+            "foreground": "var(yellow)"
+        }, 
+        {
+            "scope": "meta.block", 
+            "foreground": "var(blue)"
+        }, 
+        {
+            "scope": "meta.brackets, meta.braces",
+            "foreground": "var(white)"
+        }, 
+        {
+            "scope": "punctuation", 
+            "foreground": "var(white)"
+        }
+    ]
+}

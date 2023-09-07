@@ -1,6 +1,7 @@
 {
     "telemetry.telemetryLevel": "off",
     "quarto.mathjax.theme": "dark",
+    // "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
     "editor.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
     "editor.fontSize": 19,
     "debug.console.fontSize": 16,
@@ -17,14 +18,18 @@
         "editor.lineHighlightBorder": "#262626",
         "editorCursor.foreground": "#1cff8e",
         "terminalCursor.foreground": "#1cff8e", 
+        // "sideBar.background": "#181818",
+        // "activityBar.background": "#181818", 
+        "sideBar.border": "#2b2b2b", 
+        "activityBar.border": "#363636",
         // "editor.selectionBackground": "#dcdc5a"
         // "[Mariana Pro (Cool)]": {
         // }
-        
+        "panel.border": "#3f3f3f", 
     },
     "editor.occurrencesHighlight": false, 
     "editor.cursorStyle": "line",
-    "workbench.colorTheme": "Tomorrow Night",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "explorer.confirmDragAndDrop": false,
     "editor.dragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -48,6 +53,14 @@
     "editor.cursorSmoothCaretAnimation": "off",
     "workbench.iconTheme": "Monokai Pro Icons",
     "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment", 
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ],
         "[Monokai Pro (Filter Ristretto)]": {
             "textMateRules": [
                 {
@@ -70,6 +83,12 @@
                         "foreground": "#c2bbbb",
                         // "fontStyle": "bold"
                     }
+                }, 
+                {
+                    "scope": "meta.function-call", 
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
                 }
             ], 
             "comments": "#8ca0a0"
@@ -89,16 +108,18 @@
         "editor.stickyScroll.enabled":true
     },
     "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.stickyScroll.enabled":true
     },
-    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false}",
-    "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AlignConsecutiveAssignments: false, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false}", 
+    "[go]": {
+        "editor.stickyScroll.enabled":true
+    },
+    "black-formatter.args": ["--line-length", "100"],
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false, AllowShortEnumsOnASingleLine: true}",
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AlignConsecutiveAssignments: false, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false, AllowShortEnumsOnASingleLine: true}", 
     "editor.semanticHighlighting.enabled": false,
-    "python.formatting.provider": "black",
-    "python.formatting.blackPath": "C:/Users/emanuel/AppData/Local/Programs/Python/Python311/Scripts/black.exe", 
-    "python.formatting.blackArgs": ["--line-length", "100"], 
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": true,
     "C_Cpp.enhancedColorization": "disabled"
 
 }
