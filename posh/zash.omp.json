@@ -24,21 +24,20 @@
           "type": "text"
         },
         {
+          "type": "path",
+          "style": "plain",
           "foreground": "#56B6C2",
           "properties": {
-            "style": "folder"
-          },
-          "style": "plain",
-          "template": " {{ .Path }}",
-          "type": "path"
-        },
+            "style": "unique"
+          }
+        },        
         {
           "foreground": "#D4AAFC",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "template": " <#DDB15F>git</><#E36464>@</>{{ .HEAD }}",
           "type": "git"
         }, 
         {
