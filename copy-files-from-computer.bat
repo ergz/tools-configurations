@@ -3,7 +3,9 @@
 set "sublime_destination_folder=D:\tools-configurations\sublime-configs"
 set "clink_destination_folder=D:\tools-configurations\clink-configs"
 set "vscode_destination_folder=D:\tools-configurations\vscode-configs"
-set "ahk_destination_folder"="D:\tools-configurations\AHK"
+set "ahk_destination_folder=D:\tools-configurations\AHK"
+set "doskey_destination_folder=D:\tools-configurations\doskeys"
+set "posh_destination_folder=D:\tools-configurations\posh"
 
 echo Copying Sublime Text user files to %sublime_destination_folder%...
 xcopy "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User\*" "%sublime_destination_folder%" /E /I /Y
@@ -25,3 +27,9 @@ echo Done.
 
 echo Copying ahk folder 
 xcopy "C:\Users\emanuel\Documents\AutoHotkey\*" "%ahk_destination_folder%" /E /I /Y 
+
+echo Copying ahk folder 
+xcopy "C:\Users\emanuel\apps\bats\*" "%doskey_destination_folder%" /E /I /Y 
+
+echo Copying posh stuff
+xcopy "C:\Users\emanuel\AppData\Local\Programs\oh-my-posh\themes\zash.omp.json" "%posh_destination_folder%" /I /Y

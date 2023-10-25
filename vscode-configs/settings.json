@@ -1,34 +1,45 @@
 {
     "telemetry.telemetryLevel": "off",
-    "quarto.mathjax.theme": "dark",
     // "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
     "editor.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
     "editor.fontSize": 19,
-    "debug.console.fontSize": 16,
+    "debug.console.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
+    "debug.console.fontSize": 20,
+    "debug.console.lineHeight": 30,
     "terminal.integrated.fontSize": 19,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "quarto.render.previewType": "external",
     "git.enabled": false,
     "files.hotExit": "off",
     "window.restoreWindows": "none",
     "workbench.startupEditor": "none",
     "editor.minimap.renderCharacters": false, 
+    "explorer.copyRelativePathSeparator": "/",
     "workbench.colorCustomizations": {
+        // "editor.background": "#1a1e24",
+        "[Flexoki Dark]": {
+            "quickInput.background": "#1e1c1c",
+            "quickInputList.focusBackground": "#1c4f4a",
+            "quickInputList.focusForeground": "#ffffff",
+            // "sideBar.background": "#181818",
+            // "activityBar.background": "#181818", 
+            // "sideBar.border": "#2b2b2b", 
+            "sideBar.background": "#100F0F",
+            // "activityBar.border": "#363636",
+            // "panel.background": "#100F0F",
+            // "editor.selectionBackground": "#dcdc5a"
+            // "[Mariana Pro (Cool)]": {
+            // }
+            "panel.border": "#3f3f3f",
+        },
         "editor.lineHighlightBackground": "#000000",
         "editor.lineHighlightBorder": "#262626",
-        "editorCursor.foreground": "#1cff8e",
-        "terminalCursor.foreground": "#1cff8e", 
-        // "sideBar.background": "#181818",
-        // "activityBar.background": "#181818", 
-        "sideBar.border": "#2b2b2b", 
-        "activityBar.border": "#363636",
-        // "editor.selectionBackground": "#dcdc5a"
-        // "[Mariana Pro (Cool)]": {
-        // }
-        "panel.border": "#3f3f3f", 
+        // "editorCursor.foreground": "#1cff8e",
+        "editorCursor.background": "#FFFFFF"
+        // "terminalCursor.foreground": "#1cff8e", 
+         
     },
     "editor.occurrencesHighlight": false, 
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "block",
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "explorer.confirmDragAndDrop": false,
     "editor.dragAndDrop": false,
@@ -50,8 +61,8 @@
     },
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "editor.bracketPairColorization.enabled": false,
-    "editor.cursorSmoothCaretAnimation": "off",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // "workbench.iconTheme": "Monokai Pro Icons",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -105,7 +116,8 @@
     },
     "[typescript]": {
         "editor.formatOnSave": true,
-        "editor.stickyScroll.enabled":true
+        "editor.stickyScroll.enabled":true, 
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
@@ -115,12 +127,21 @@
     "[go]": {
         "editor.stickyScroll.enabled":true
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode", 
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+      },
     "black-formatter.args": ["--line-length", "100"],
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false, AllowShortEnumsOnASingleLine: true}",
     "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AlignConsecutiveAssignments: false, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false, AllowShortEnumsOnASingleLine: true}", 
     "editor.semanticHighlighting.enabled": false,
     "workbench.editor.showTabs": true,
-    "C_Cpp.enhancedColorization": "disabled"
-
+    "C_Cpp.enhancedColorization": "disabled",
+    "window.commandCenter": false,
+    "files.associations": {
+        "*.tmpl": "html"
+    },
+    
 }
 

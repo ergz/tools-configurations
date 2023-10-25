@@ -1,0 +1,9 @@
+{
+    // http://www.sublimetext.com/docs/3/themes.html
+    "variables": {
+        // "font_face": "system",
+        "dark_bg": "color(var(--background) blend(white 100%))"
+    },
+    "rules": [
+    ],
+}

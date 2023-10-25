@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "newline": false,
+      "segments": [
+        {
+          "type": "python",
+          "style": "plain",
+          "foreground": "#906cff",
+          "template": "[{{ .Venv }}]"
+        },
+        {
+          "foreground": "#E36464",
+          "style": "plain",
+          "template": "@{{ .UserName }} ",
+          "type": "session"
+        },
+        {
+          "foreground": "#62ED8B",
+          "style": "plain",
+          "template": "\u279c",
+          "type": "text"
+        },
+        {
+          "foreground": "#56B6C2",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "plain",
+          "template": " {{ .Path }}",
+          "type": "path"
+        },
+        {
+          "foreground": "#D4AAFC",
+          "properties": {
+            "branch_icon": ""
+          },
+          "style": "plain",
+          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "type": "git"
+        }, 
+        {
+          "foreground": "#7FFFD4",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#E84855{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " <#76EEC6>\u276f</><foreground>\u276f</>",
+          "type": "status"
+        }
+
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
