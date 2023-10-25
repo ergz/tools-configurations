@@ -108,24 +108,24 @@
     // "editor.stickyScroll.enabled": true, 
     "[c]": {
         "editor.formatOnSave": true, 
-        "editor.stickyScroll.enabled": true
+        // "editor.stickyScroll.enabled": true
     }, 
     "[cpp]": {
         "editor.formatOnSave": true,
-        "editor.stickyScroll.enabled":true
+        // "editor.stickyScroll.enabled":true
     },
     "[typescript]": {
         "editor.formatOnSave": true,
-        "editor.stickyScroll.enabled":true, 
+        // "editor.stickyScroll.enabled":true, 
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
-        "editor.stickyScroll.enabled":true
+        // "editor.stickyScroll.enabled":true
     },
     "[go]": {
-        "editor.stickyScroll.enabled":true
+        // "editor.stickyScroll.enabled":true
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode", 
