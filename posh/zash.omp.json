@@ -50,7 +50,7 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": " <#76EEC6>\u276f</><foreground>\u276f</>",
+          "template": "\n<foreground>\u276f</>",
           "type": "status"
         }
 
