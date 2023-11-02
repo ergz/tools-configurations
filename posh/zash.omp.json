@@ -1,5 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "black": "#282c34",
+    "red": "#e06c75",
+    "green": "#98c379",
+    "yellow": "#e5c07b",
+    "blue": "#61afef",
+    "magenta": "#c678dd",
+    "cyan": "#56b6c2",
+    "white": "#dcdfe4",
+    "foreground": "#dcdfe4",
+    "background": "#282c34"
+  },
   "blocks": [
     {
       "alignment": "left",
@@ -32,14 +44,16 @@
           }
         },        
         {
-          "foreground": "#D4AAFC",
           "properties": {
-            "branch_icon": ""
+            "branch_icon": "",
+            "fetch_status": true,
+            "fetch_stash_count": true,
+            "fetch_worktree_count": true
           },
           "style": "plain",
-          "template": "<#DDB15F>git \u283F </>{{ .HEAD }}<#DDB15F></>",
+          "template": "<p:yellow>git</> \u283F {{ if or (.Working.Changed) (.Staging.Changed) (gt .StashCount 0) }}<p:magenta>{{ .HEAD }}</>{{ else }}<p:green>{{ .HEAD }}</>{{ end }}{{ if (gt .Ahead 0)}}<p:cyan>{{ .BranchStatus }}</>{{ end }}{{ if (gt .Behind 0)}}<p:cyan>{{ .BranchStatus }}</>{{ end }}{{ if .Staging.Changed }} <p:green>{{ .Staging.String }}</>{{ end }}{{ if .Working.Changed }} <p:red>{{ .Working.String }}</>{{ end }}",
           "type": "git"
-        }, 
+        },
         {
           "foreground": "#7FFFD4",
           "foreground_templates": [
