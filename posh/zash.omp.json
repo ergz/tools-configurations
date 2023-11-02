@@ -9,7 +9,7 @@
           "type": "python",
           "style": "plain",
           "foreground": "#906cff",
-          "template": "[{{ .Venv }}]"
+          "template": "({{ .Venv }})"
         },
         {
           "foreground": "#E36464",
@@ -37,7 +37,7 @@
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git</><#E36464>@</>{{ .HEAD }}",
+          "template": "<#DDB15F>git \u283F </>{{ .HEAD }}<#DDB15F></>",
           "type": "git"
         }, 
         {
