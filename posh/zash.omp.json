@@ -36,6 +36,15 @@
           "type": "text"
         },
         {
+          "foreground": "#83769c",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " {{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
+        {
           "type": "path",
           "style": "plain",
           "foreground": "#56B6C2",
