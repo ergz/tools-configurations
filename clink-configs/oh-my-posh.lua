@@ -1,0 +1,2 @@
+load(io.popen('oh-my-posh init cmd --config C:/Users/emanuel/Documents/ohmyposh-themes/zash.omp.json'):read("*a"))()
+-- load(io.popen('oh-my-posh init cmd --config C:/Users/emanuel/Documents/ohmyposh-themes/onehalf.minimal.omp.json'):read("*a"))()

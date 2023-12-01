@@ -136,7 +136,7 @@
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false, AllowShortEnumsOnASingleLine: true}",
     "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AlignConsecutiveAssignments: false, AlignConsecutiveDeclarations : true, IndentWidth: 4, PointerAlignment: Right, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, ColumnLimit: 0, DerivePointerAlignment: false, AllowShortEnumsOnASingleLine: true}", 
     "editor.semanticHighlighting.enabled": false,
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": "multiple",
     "C_Cpp.enhancedColorization": "disabled",
     "window.commandCenter": false,
     "files.associations": {
