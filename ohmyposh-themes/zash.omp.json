@@ -45,6 +45,16 @@
           "type": "executiontime"
         },
         {
+          "type": "battery",
+          "style": "plain",
+          "foreground_templates": [
+            "{{if eq \"Charging\" .State.String}}#4caf50{{end}}",
+            "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
+            "{{if eq \"Full\" .State.String}}#40c4ff{{end}}"
+          ],
+          "template": "[{{ if not .Error }}{{ .Percentage }}{{ end }}%]"
+        },
+        {
           "type": "path",
           "style": "plain",
           "foreground": "#56B6C2",
