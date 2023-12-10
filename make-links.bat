@@ -9,3 +9,7 @@ mklink "%LOCALAPPDATA%\clink\flexprompt_config.lua" "%cd%\clink-configs\flexprom
 :: oh my posh with clink
 mklink "%LOCALAPPDATA%\clink\oh-my-posh.lua" "%cd%\clink-configs\oh-my-posh.lua"
 :: oh my posh themes
+
+
+:: sublime text
+mklink "%APPDATA%\Sublime Text\Packages\User\Preferences.sublime-settings" "%cd%\sublime-configs\Preferences.sublime-settings"
