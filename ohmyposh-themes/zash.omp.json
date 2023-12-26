@@ -21,7 +21,7 @@
           "type": "python",
           "style": "plain",
           "foreground": "#906cff",
-          "template": "({{ .Venv }})"
+          "template": "({{ trunc 8 .Venv}})"
         },
         {
           "foreground": "#E36464",
