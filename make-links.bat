@@ -13,3 +13,7 @@ mklink "%LOCALAPPDATA%\clink\oh-my-posh.lua" "%cd%\clink-configs\oh-my-posh.lua"
 
 :: sublime text
 mklink "%APPDATA%\Sublime Text\Packages\User\Preferences.sublime-settings" "%cd%\sublime-configs\Preferences.sublime-settings"
+
+:: alacrity 
+mklink "C:\Users\%USERNAME%\scoop\persist\alacritty\alacritty.yml" "%cd%\alacritty\alacritty.yml"
+

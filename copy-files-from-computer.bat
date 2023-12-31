@@ -6,6 +6,7 @@ set "vscode_destination_folder=D:\tools-configurations\vscode-configs"
 set "ahk_destination_folder=D:\tools-configurations\AHK"
 set "doskey_destination_folder=D:\tools-configurations\doskeys"
 set "posh_destination_folder=D:\tools-configurations\posh"
+set "alacritty_destnation_folder=D:\tools-configurations\alacritty"
 
 echo Copying Sublime Text user files to %sublime_destination_folder%...
 xcopy "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User\*" "%sublime_destination_folder%" /E /I /Y
