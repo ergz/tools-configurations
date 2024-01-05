@@ -38,7 +38,7 @@
         // "terminalCursor.foreground": "#1cff8e", 
          
     },
-    "editor.occurrencesHighlight": false, 
+    "editor.occurrencesHighlight": "off", 
     "editor.cursorStyle": "block",
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "explorer.confirmDragAndDrop": false,
