@@ -22,7 +22,7 @@
 	"themed_title_bar": true,
 	"index_exclude_gitignore": false,
 	"animation_enabled": false,
-	"scroll_speed": 5.0,
+	"scroll_speed": 1.0,
 	"indent_guide_options": [
 		// "draw_normal",
 		"draw_active",
@@ -41,11 +41,13 @@
 
 	// When enabled, the caret will be drawn as a rectangle, using the width
 	// of the current character
-	"block_caret": false,
+	"block_caret": true,
 	"auto_complete_include_snippets": false,
 	"match_brackets_content": true,
-		"tree_animation_enabled": false,
+	"tree_animation_enabled": false,
 			/*"animation_enabled": false,*/
 
 
+
+	"index_files": true,
 }
