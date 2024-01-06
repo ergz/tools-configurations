@@ -2,7 +2,6 @@
 mklink "%APPDATA%\Code\User\settings.json" "vscode-configs\settings.json"
 
 :: clink
-set clinkpath=%LOCALAPPDATA%\clink
 mklink "%LOCALAPPDATA%\clink\.inputrc" "%cd%\clink-configs\.inputrc"
 mklink "%LOCALAPPDATA%\clink\clink_settings" "%cd%\clink-configs\clink_settings"
 mklink "%LOCALAPPDATA%\clink\flexprompt_config.lua" "%cd%\clink-configs\flexprompt_config.lua"

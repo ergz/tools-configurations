@@ -103,7 +103,7 @@ color.selection = sgr 38;5;16;48;5;179
 
 # name: Color for suggestion text
 # type: color
-color.suggestion = bright black
+color.suggestion = sgr 1;38;5;241
 
 # name: Unexpected argument color
 # type: color
