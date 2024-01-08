@@ -198,7 +198,7 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-#colors:
+colors:
   # Default colors
   #primary:
   #  background: '#1d1f21'
@@ -219,9 +219,9 @@ font:
   #
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
-  #cursor:
-  #  text: CellBackground
-  #  cursor: CellForeground
+  cursor:
+   text: '0x000000'
+   cursor: '0xffffe0' 
 
   # Vi mode cursor colors
   #
@@ -775,7 +775,7 @@ working_directory: D:/
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 keyboard.bindings:
-  - { key: Space, mods: Control, chars: "\u0000" }
+  # - { key: Space, mods: Control, chars: "^@" }
   # - { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }

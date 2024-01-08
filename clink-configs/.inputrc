@@ -1,1 +1,3 @@
 "\e[1;5A": win-history-list
+"\t": complete
+"\C-\t": clink-select-complete  
