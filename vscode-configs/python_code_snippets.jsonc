@@ -1,0 +1,166 @@
+{
+    //The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    "Zero arguements function": {
+        "prefix": "f0",
+        "body": [
+            "",
+            "",
+            "def ${1:function_name}() -> ${2:return_type}:",
+            "    \"\"\"${3:one_sentance_docstr}",
+            "    \"\"\"",
+            "    logging.info(f\"${1:function_name} - invocation begin\")",
+            "    $0",
+            "    logging.info(f\"${1:function_name} - invocation end\")",
+            "    return(None)",
+            "",
+            "",
+        ],
+        "description": "Zero arguements function"
+    },
+    "One arguement function": {
+        "prefix": "f1",
+        "body": [
+            "",
+            "",
+            "def ${1:function_name}(",
+            "    ${2:arg_one_name}: ${3:arg_one_type}",
+            "    ) -> ${4:return_type}:",
+            "    \"\"\"${5:one_sentance_docstr}",
+            "    \"\"\"",
+            "    logging.info(f\"${1:function_name} - invocation begin\")",
+            "    $0",
+            "    logging.info(f\"${1:function_name} - invocation end\")",
+            "    return(None)",
+            "",
+            "",
+        ],
+        "description": "One arguement function"
+    },
+    "Two arguement function": {
+        "prefix": "f2",
+        "body": [
+            "",
+            "",
+            "def ${1:function_name}(",
+            "    ${2:arg_one_name}: ${3:arg_one_type}, ${4:arg_two_name}: ${5:arg_two_type}",
+            "    ) -> ${6:return_type}:",
+            "    \"\"\"${7:one_sentance_docstr}",
+            "    \"\"\"",
+            "    logging.info(f\"${1:function_name} - invocation begin\")",
+            "    $0",
+            "    logging.info(f\"${1:function_name} - invocation end\")",
+            "    return(None)",
+            "",
+            "",
+        ],
+        "description": "Two arguement function"
+    },
+    "Three arguement function": {
+        "prefix": "f3",
+        "body": [
+            "",
+            "",
+            "def ${1:function_name}(",
+            "    ${2:arg_one_name}: ${3:arg_one_type}, ${4:arg_two_name}: ${5:arg_two_type}, ",
+            "    ${6:arg_three_name}: ${7:arg_three_type}",
+            "    ) -> ${8:return_type}:",
+            "    \"\"\"${9:one_sentance_docstr}",
+            "    \"\"\"",
+            "    logging.info(f\"${1:function_name} - invocation begin\")",
+            "    $0",
+            "    logging.info(f\"${1:function_name} - invocation end\")",
+            "    return(None)",
+            "",
+            "",
+        ],
+        "description": "Three arguement function"
+    },
+    "Four arguement function": {
+        "prefix": "f4",
+        "body": [
+            "",
+            "",
+            "def ${1:function_name}(",
+            "    ${2:arg_one_name}: ${3:arg_one_type}, ${4:arg_two_name}: ${5:arg_two_type}, ",
+            "    ${6:arg_three_name}: ${7:arg_three_type}, ${8:arg_four_name}: ${9:arg_four_type}",
+            "    ) -> ${10:return_type}:",
+            "    \"\"\"${11:one_sentance_docstr}",
+            "    \"\"\"",
+            "    logging.info(f\"${1:function_name} - invocation begin\")",
+            "    $0",
+            "    logging.info(f\"${1:function_name} - invocation end\")",
+            "    return(None)",
+            "",
+            "",
+        ],
+        "description": "Four arguement function"
+    },
+    "log statement for function": {
+        "prefix": "f5",
+        "body": [
+            "logging.info(f\"${1:function_name} - $0\")",
+            ],
+            "description": "log statement for function"
+        
+    },
+    "test case function stub": {
+        "prefix": "f6",
+        "body": [
+            "",
+            "",
+            "def test_${1:function_name}(self):",
+            "    \"\"\"${2:test_case_description}\"\"\"",
+            "    from ${3:project_name}.${4:${RELATIVE_FILEPATH/.test//}} import ${1:function_name}",
+            "    $0",
+            "",
+            "",
+        ],
+        "description": "test case function stub"
+    },
+    "main entry with logging": {
+        "prefix": "f7",
+        "body": [
+            "",
+            "",
+            "if __name__ == \"__main__\":",
+            "    import logging",
+            "    import os",
+            "    from time import strftime",
+            "    os.environ[\"AWS_REGION\"] = \"us-east-1\"",
+            "    logging.basicConfig(",
+            "        format=(\"%(levelname)s | %(asctime)s.%(msecs)03d\" +",
+            "            strftime(\"%z\") + \" | %(message)s\"",
+            "        ),",
+            "        datefmt=\"%Y-%m-%dT%H:%M:%S\", ",
+            "        level=logging.INFO",
+            "    )",
+            "    $0",
+            "",
+            "",
+        ],
+        "description": "main entry with logging"
+    },
+    "get object properties": {
+        "prefix": "f8",
+        "body": [
+            "",
+            "",
+            "${1:object_properties} = [",
+            "    $0attr_name for attr_name in dir(${2:object_name})",
+            "    if not attr_name.startswith(\"_\")",
+            "]",
+            "",
+            
+        ],
+        "description": "public properties only"
+    },
+    "0 based integer sequence": {
+        "prefix": "f9",
+        "body": [
+            "${CURSOR_INDEX}",
+        ],
+        "description": "using cursor index number"
+    }
+}
