@@ -16,3 +16,5 @@ mklink "%APPDATA%\Sublime Text\Packages\User\Preferences.sublime-settings" "%cd%
 :: alacrity 
 mklink "C:\Users\%USERNAME%\scoop\persist\alacritty\alacritty.yml" "%cd%\alacritty\alacritty.yml"
 
+:: wezterm
+mklink "C:\Users\%USERNAME%\.config\wezterm\wezterm.lua" "%cd%\wezterm\wezterm.lua"
