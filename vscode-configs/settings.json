@@ -2,7 +2,7 @@
     "telemetry.telemetryLevel": "off",
     // "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
     "editor.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
-    "editor.fontSize": 19,
+    "editor.fontSize": 18,
     "debug.console.fontFamily": "'Berkeley Mono', 'Courier New', monospace",
     "debug.console.fontSize": 20,
     "debug.console.lineHeight": 30,
@@ -120,9 +120,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
-        // "editor.stickyScroll.enabled":true
+        "editor.defaultFormatter": "charliermarsh.ruff", 
+        "editor.stickyScroll.enabled": true
     },
     "[go]": {
         // "editor.stickyScroll.enabled":true
@@ -142,6 +142,7 @@
     "files.associations": {
         "*.tmpl": "html"
     },
-    
+    "notebook.markup.fontSize": 18,
+    "cmake.configureOnOpen": false
 }
 

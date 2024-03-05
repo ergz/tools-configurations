@@ -30,21 +30,6 @@
           "type": "session"
         },
         {
-          "foreground": "#62ED8B",
-          "style": "plain",
-          "template": "\u279c",
-          "type": "text"
-        },
-        {
-          "foreground": "#83769c",
-          "properties": {
-            "always_enabled": true
-          },
-          "style": "plain",
-          "template": " {{ .FormattedMs }} ",
-          "type": "executiontime"
-        },
-        {
           "type": "battery",
           "style": "plain",
           "foreground_templates": [

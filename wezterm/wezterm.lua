@@ -9,6 +9,7 @@ config.font = wezterm.font "BerkeleyMono Nerd Font"
 config.font_size = 15
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
+config.color_scheme = "Tomorrow Night"
 config.keys = {
 
     -- This binds Ctrl-Shift-R to reload the configuration
