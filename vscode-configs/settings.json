@@ -39,8 +39,9 @@
          
     },
     "editor.occurrencesHighlight": "off", 
-    "editor.cursorStyle": "block",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 4,
+    "workbench.colorTheme": "GitHub Dark Default",
     "explorer.confirmDragAndDrop": false,
     "editor.dragAndDrop": false,
     "explorer.confirmDelete": false,
