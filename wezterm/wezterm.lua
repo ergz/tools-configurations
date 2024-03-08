@@ -12,7 +12,9 @@ config.font = wezterm.font "BerkeleyMono Nerd Font"
 config.font_size = 14
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
-config.color_scheme = "flexoki-dark"
+config.color_scheme = "Floraverse"
+config.initial_rows = 24 * 2
+config.initial_cols = 80 * 2
 config.window_padding = {left = 1, right = 0, top = 0, bottom = 0}
 config.keys = {
 
