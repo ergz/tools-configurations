@@ -9,10 +9,11 @@ if wezterm.config_builder() then
 end
 config.default_prog = {"cmd.exe", "/K", "C:\\Users\\emanuel\\apps\\bats\\doskeys.bat"}
 config.font = wezterm.font "BerkeleyMono Nerd Font"
+-- config.font = wezterm.font "Hack Nerd Font"
 config.font_size = 14
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
-config.color_scheme = "Floraverse"
+config.color_scheme = "flexoki-dark"
 config.initial_rows = 24 * 2
 config.initial_cols = 80 * 2
 config.window_padding = {left = 1, right = 0, top = 0, bottom = 0}
