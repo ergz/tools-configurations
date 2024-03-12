@@ -1,11 +1,14 @@
 local wezterm = require "wezterm"
 
-
 local config = {}
 
 -- local flex_scheme_colors, flex_metadata = wezterm.color.load_scheme("flexoki_dark.toml")
 if wezterm.config_builder() then
     config = wezterm.config_builder()
+end
+local hostname = wezterm.hostname()
+if hostname == "tower" then
+    config.default_cwd = "D:\\"
 end
 config.default_prog = {"cmd.exe", "/K", "C:\\Users\\emanuel\\apps\\bats\\doskeys.bat"}
 config.font = wezterm.font "BerkeleyMono Nerd Font"

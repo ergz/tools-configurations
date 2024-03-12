@@ -1,9 +1,7 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-
-    
-    "actions":
+    "actions": 
     [
         {
             "command": "unbound",
@@ -26,7 +24,7 @@
             "keys": "ctrl+comma"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "sendInput",
                 "input": "\u001bOH"
@@ -34,7 +32,7 @@
             "keys": "ctrl+a"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -42,7 +40,7 @@
             "keys": "ctrl+c"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "newTab",
                 "index": 1
@@ -58,7 +56,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -67,7 +65,7 @@
             "keys": "alt+shift+d"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "left"
@@ -75,7 +73,7 @@
             "keys": "alt+shift+/"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "newTab",
                 "index": 0
@@ -83,7 +81,7 @@
             "keys": "ctrl+alt+y"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "sendInput",
                 "input": "build.bat\r"
@@ -91,7 +89,7 @@
             "keys": "f12"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "sendInput",
                 "input": "cd /d D:\\dev\r"
@@ -99,7 +97,7 @@
             "keys": "f9"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "sendInput",
                 "input": "vcvars.bat\r"
@@ -107,7 +105,7 @@
             "keys": "f10"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "swapPane",
                 "direction": "previous"
@@ -120,31 +118,31 @@
     "copyOnSelect": false,
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "disableAnimations": true,
-    "newTabMenu":
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "cursorShape": "vintage",
-            "font":
+            "font": 
             {
                 "face": "Berkeley Mono",
                 "size": 13.0
             }
         },
-        "list":
+        "list": 
         [
             {
                 "bellStyle": "taskbar",
                 "colorScheme": "Flexoki",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /K C:\\Users\\emanuel\\apps\\bats\\doskeys.bat",
                 "cursorShape": "filledBox",
-                "font":
+                "font": 
                 {
                     "face": "BerkeleyMono Nerd Font",
                     "size": 14.0
@@ -160,7 +158,7 @@
                 "bellStyle": "window",
                 "colorScheme": "GitHub Dark",
                 "cursorShape": "filledBox",
-                "font":
+                "font": 
                 {
                     "size": 14.0
                 },
@@ -174,7 +172,7 @@
                 "bellStyle": "taskbar",
                 "colorScheme": "Flexoki",
                 "cursorShape": "filledBox",
-                "font":
+                "font": 
                 {
                     "face": "BerkeleyMono Nerd Font",
                     "size": 14.0
@@ -186,7 +184,7 @@
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             },
             {
-                "font":
+                "font": 
                 {
                     "face": "Cascadia Mono"
                 },
@@ -214,7 +212,7 @@
             },
             {
                 "colorScheme": "GitHub Dark",
-                "font":
+                "font": 
                 {
                     "size": 14.0
                 },
@@ -231,7 +229,7 @@
                 "colorScheme": "Campbell",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
-                "font":
+                "font": 
                 {
                     "face": "Berkeley Mono",
                     "size": 14.0
@@ -254,7 +252,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#20201D",
@@ -878,6 +876,7 @@
             "yellow": "#808000"
         }
     ],
+    "showTabsInTitlebar": true,
     "startOnUserLogin": true,
     "tabWidthMode": "equal",
     "theme": "system",
