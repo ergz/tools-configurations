@@ -14,7 +14,7 @@ mklink "%LOCALAPPDATA%\clink\oh-my-posh.lua" "%cd%\clink-configs\oh-my-posh.lua"
 mklink "%APPDATA%\Sublime Text\Packages\User\Preferences.sublime-settings" "%cd%\sublime-configs\Preferences.sublime-settings"
 
 :: alacrity 
-mklink "C:\Users\%USERNAME%\scoop\persist\alacritty\alacritty.yml" "%cd%\alacritty\alacritty.yml"
+mklink "C:\Users\%USERNAME%\scoop\persist\alacritty\alacritty.toml" "%cd%\alacritty\alacritty.toml"
 
 :: wezterm
 mklink "C:\Users\%USERNAME%\.config\wezterm\wezterm.lua" "%cd%\wezterm\wezterm.lua"
