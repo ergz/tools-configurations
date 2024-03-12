@@ -20,7 +20,7 @@ config.colors = {background = '#100F0F'} --- fix the wrong bg colors used in the
 config.initial_rows = 24 * 2
 config.initial_cols = 80 * 2
 config.window_padding = {left = 1, right = 0, top = 0, bottom = 0}
-config.use_fancy_tab_bar = true
+config.use_fancy_tab_bar = false
 config.keys = {
 
     -- This binds Ctrl-Shift-R to reload the configuration
