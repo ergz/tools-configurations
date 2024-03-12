@@ -18,3 +18,6 @@ mklink "C:\Users\%USERNAME%\scoop\persist\alacritty\alacritty.toml" "%cd%\alacri
 
 :: wezterm
 mklink "C:\Users\%USERNAME%\.config\wezterm\wezterm.lua" "%cd%\wezterm\wezterm.lua"
+
+:: windows terminal
+mklink "C:\Users\%USERNAME%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "%cd%\windows-terminal\settings.json"
