@@ -1,5 +1,5 @@
 local wezterm = require "wezterm"
-
+local act = wezterm.action
 local config = {}
 
 -- local flex_scheme_colors, flex_metadata = wezterm.color.load_scheme("flexoki_dark.toml")
@@ -26,15 +26,9 @@ config.wsl_domains = {
     name = 'WSL:Ubuntu-20.04',
     distribution = 'Ubuntu',
     default_cwd = "/mnt/c/Users/emanuel"
-
-    -- The default command to run, if the SpawnCommand doesn't otherwise
-    -- override it.  Note that you may prefer to use `chsh` to set the
-    -- default shell for your user inside WSL to avoid needing to
-    -- specify it here
-
-    -- default_prog = {"fish"}
   },
 }
+
 config.keys = {
 
     -- This binds Ctrl-Shift-R to reload the configuration
@@ -44,4 +38,7 @@ config.keys = {
       action = "ReloadConfiguration",
     },
   }
+
 return config
+
+
