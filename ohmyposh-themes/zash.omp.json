@@ -26,24 +26,18 @@
         {
           "foreground": "#E36464",
           "style": "plain",
-          "template": "@{{ .UserName }} ",
+          "template": "@{{ .UserName }}",
           "type": "session"
         },
-        {
-          "foreground": "#62ED8B",
-          "style": "plain",
-          "template": "\u279c",
-          "type": "text"
-        },
-        {
+ {
           "foreground": "#83769c",
-          "properties": {
-            "always_enabled": true
-          },
-          "style": "plain",
-          "template": " {{ .FormattedMs }} ",
-          "type": "executiontime"
-        },
+           "properties": {
+             "always_enabled": true
+           },
+           "style": "plain",
+           "template": " {{ .FormattedMs }} ",
+           "type": "executiontime"
+         },
         {
           "type": "battery",
           "style": "plain",
@@ -70,7 +64,7 @@
             "fetch_worktree_count": true
           },
           "style": "plain",
-          "template": "<p:yellow>git</> \u283F {{ if or (.Working.Changed) (.Staging.Changed) (gt .StashCount 0) }}<p:magenta>{{ .HEAD }}</>{{ else }}<p:green>{{ .HEAD }}</>{{ end }}{{ if (gt .Ahead 0)}}<p:cyan>{{ .BranchStatus }}</>{{ end }}{{ if (gt .Behind 0)}}<p:cyan>{{ .BranchStatus }}</>{{ end }}{{ if .Staging.Changed }} <p:green>{{ .Staging.String }}</>{{ end }}{{ if .Working.Changed }} <p:red>{{ .Working.String }}</>{{ end }}",
+          "template": "<p:yellow>git</>({{ if or (.Working.Changed) (.Staging.Changed) (gt .StashCount 0) }}<p:magenta>{{ .HEAD }}</>{{ else }}<p:green>{{ .HEAD }}</>{{ end }}{{ if (gt .Ahead 0)}}<p:cyan>{{ .BranchStatus }}</>{{ end }}{{ if (gt .Behind 0)}}<p:cyan>{{ .BranchStatus }}</>{{ end }}{{ if .Staging.Changed }} <p:green>{{ .Staging.String }}</>{{ end }}{{ if .Working.Changed }} <p:red>{{ .Working.String }}</>{{ end }})",
           "type": "git"
         },
         {

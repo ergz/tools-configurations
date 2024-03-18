@@ -32,8 +32,8 @@ window:
   # least `2`, while using a value of `0` for columns and lines will fall back
   # to the window manager's recommended size
   dimensions:
-   columns: 150
-   lines: 40
+   columns: 120
+   lines: 30
 
   # Window position (changes require restart)
   #
@@ -135,18 +135,18 @@ font:
     family: BerkeleyMono Nerd Font
 
     # # The `style` can be specified to pick a specific face.
-    # style: Regular
+    style: Regular
 
   # Bold font face
-  #bold:
+  bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: BerkeleyMono Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold
+  style: Regular
 
   # Italic font face
   #italic:
@@ -465,7 +465,7 @@ shell:
 #
 # Directory the shell is started in. If this is unset, or `None`, the working
 # directory of the parent process will be used.
-working_directory: D:/
+working_directory: C:\Users\emanuel
 
 # Offer IPC using `alacritty msg` (unix only)
 #ipc_socket: true

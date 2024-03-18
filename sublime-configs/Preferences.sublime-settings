@@ -14,7 +14,7 @@
 		"no_bold"
 	],
 	"translate_tabs_to_spaces": true,
-	"color_scheme": "GitHub Dimmed.sublime-color-scheme",
+	"color_scheme": "GitHub Dark.sublime-color-scheme",
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_theme": "Default.sublime-theme",
 	"hot_exit": "disabled",

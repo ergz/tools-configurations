@@ -2,3 +2,5 @@
 DOSKEY ls=ls --color=auto $*
 DOSKEY pat=bat -p $*
 DOSKEY clear=cls
+DOSKEY vv=nvim
+
