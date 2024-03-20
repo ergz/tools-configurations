@@ -26,18 +26,9 @@
         {
           "foreground": "#E36464",
           "style": "plain",
-          "template": "@{{ .UserName }}",
+          "template": "@{{ .UserName }} ",
           "type": "session"
         },
- {
-          "foreground": "#83769c",
-           "properties": {
-             "always_enabled": true
-           },
-           "style": "plain",
-           "template": " {{ .FormattedMs }} ",
-           "type": "executiontime"
-         },
         {
           "type": "battery",
           "style": "plain",
