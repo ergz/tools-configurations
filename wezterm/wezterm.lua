@@ -1,5 +1,6 @@
 local wezterm = require "wezterm"
 local act = wezterm.action
+
 local config = {}
 
 -- local flex_scheme_colors, flex_metadata = wezterm.color.load_scheme("flexoki_dark.toml")
@@ -11,7 +12,7 @@ if hostname == "tower" then
     config.default_cwd = "D:\\"
 end
 config.default_prog = {"cmd.exe", "/K", "C:\\Users\\emanuel\\apps\\bats\\doskeys.bat"}
-config.font = wezterm.font "BerkeleyMono Nerd Font"
+config.font = wezterm.font "Hack Nerd Font"
 config.font_size = 14.5
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
