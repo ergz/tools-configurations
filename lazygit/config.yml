@@ -1,0 +1,45 @@
+gui:
+  # stuff relating to the UI
+  windowSize: 'normal' # one of 'normal' | 'half' | 'full' default is 'normal'
+  scrollHeight: 2 # how many lines you scroll by
+  scrollPastBottom: true # enable scrolling past the bottom
+  scrollOffMargin: 2 # how many lines to keep before/after the cursor when it reaches the top/bottom of the view; see 'Scroll-off Margin' section below
+  scrollOffBehavior: 'margin' # one of 'margin' | 'jump'; see 'Scroll-off Margin' section below
+  sidePanelWidth: 0.3333 # number from 0 to 1
+  expandFocusedSidePanel: false
+  mainPanelSplitMode: 'flexible' # one of 'horizontal' | 'flexible' | 'vertical'
+  enlargedSideViewLocation: 'left' # one of 'left' | 'top'
+  language: 'auto' # one of 'auto' | 'en' | 'zh-CN' | 'zh-TW' | 'pl' | 'nl' | 'ja' | 'ko' | 'ru'
+  timeFormat: '02 Jan 06' # https://pkg.go.dev/time#Time.Format
+  shortTimeFormat: '3:04PM'
+  theme:
+    activeBorderColor:
+      - '#1fff62'
+      - bold
+    inactiveBorderColor:
+      - grey
+    searchingActiveBorderColor:
+      - cyan
+      - bold
+    optionsTextColor:
+      - blue
+    selectedLineBgColor:
+      - blue # set to `default` to have no background colour
+    cherryPickedCommitBgColor:
+      - cyan
+    cherryPickedCommitFgColor:
+      - blue
+    unstagedChangesColor:
+      - red
+    defaultFgColor:
+      - default
+  commitLength:
+    show: true
+  showRandomTip: false
+  nerdFontsVersion: "3"
+
+git:
+  paging:
+    colorArg: always
+    useConfig: true
+
