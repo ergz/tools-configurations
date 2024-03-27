@@ -24,7 +24,7 @@ gui:
     optionsTextColor:
       - blue
     selectedLineBgColor:
-      - blue # set to `default` to have no background colour
+      - "#203b7a"  # set to `default` to have no background colour
     cherryPickedCommitBgColor:
       - cyan
     cherryPickedCommitFgColor:
