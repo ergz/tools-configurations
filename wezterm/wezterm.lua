@@ -16,6 +16,11 @@ local wsl_domains = {
             distribution = 'Ubuntu',
             default_cwd = "/mnt/c/Users/emanuel"
         },
+        {
+            name = "WSL:Ubuntu-22.04", 
+            distribution = "Ubuntu-22.04", 
+            default_cwd = "~"
+        }
         -- Add more WSL domains for "tower" if needed
     },
     eman17 = {
@@ -44,8 +49,8 @@ end
 
 if hostname == "tower" then
     config.default_cwd = "D:\\"
-    config.initial_rows = 24 * 2
-    config.initial_cols = 80 * 2
+    config.initial_rows = 24 * 1
+    config.initial_cols = 80 * 1
 elseif hostname == "eman17" then
     config.default_cwd = "D:\\"
     config.initial_rows = 24
