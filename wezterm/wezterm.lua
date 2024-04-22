@@ -56,9 +56,9 @@ elseif hostname == "eman17" then
     config.initial_rows = 24
     config.initial_cols = 80
 end
-config.default_prog = {"cmd.exe", "/K", "C:\\Users\\emanuel\\apps\\bats\\doskeys.bat"}
-config.font = wezterm.font "Hack Nerd Font"
-config.font_size = 14.5
+config.default_prog = {"cmd.exe"}
+config.font = wezterm.font "CaskaydiaMono Nerd Font"
+config.font_size = 15
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
 config.color_scheme = "flexoki-dark"
