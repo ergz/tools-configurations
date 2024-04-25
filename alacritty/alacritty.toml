@@ -1,0 +1,41 @@
+working_directory = 'C:\Users\emanuel'
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mode = "~Vi"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "SearchForward"
+key = "F"
+mode = "~Search"
+mods = "Control|Shift"
+
+[colors.cursor]
+cursor = "0xffffe0"
+text = "0x000000"
+
+[font]
+size = 15
+
+[font.normal]
+family = "CaskaydiaMono Nerd Font"
+style = "Regular"
+
+[shell]
+program = "cmd.exe - /K C:/Users/emanuel/apps/bats/doskeys.bat"
+
+[window]
+decorations = "full"
+decorations_theme_variant = "Dark"
+
+[window.dimensions]
+columns = 120
+lines = 30
+
