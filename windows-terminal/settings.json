@@ -4,6 +4,22 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001bOH"
+            },
+            "keys": "ctrl+a"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -24,20 +40,8 @@
             "keys": "ctrl+comma"
         },
         {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001bOH"
-            },
-            "keys": "ctrl+a"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -46,10 +50,6 @@
                 "index": 1
             },
             "keys": "ctrl+alt+t"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -67,18 +67,18 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "left"
-            },
-            "keys": "alt+shift+/"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+alt+y"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "left"
+            },
+            "keys": "alt+shift+/"
         },
         {
             "command": 
@@ -144,7 +144,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "BerkeleyMono Nerd Font",
+                    "face": "CaskaydiaMono Nerd Font",
                     "size": 14.0
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
