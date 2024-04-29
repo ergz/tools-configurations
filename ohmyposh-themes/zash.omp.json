@@ -56,7 +56,10 @@
           },
           "style": "plain",
           "template": "({{ if or (.Working.Changed) (.Staging.Changed) (gt .StashCount 0) }}<p:red>{{ .HEAD }}</>{{ else }}<p:green>{{.HEAD }}</>{{ end }})",
-          "type": "git"
+          "type": "git", 
+          "properties": {
+            "branch_icon": "\ue725 "
+          }
         },
         {
           "foreground": "#7FFFD4",
