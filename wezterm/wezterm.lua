@@ -61,17 +61,17 @@ config.font = wezterm.font "CaskaydiaMono Nerd Font"
 config.font_size = 15
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
-config.color_scheme = "flexoki-dark"
-config.colors = {
-    background = '#100F0F',
-    tab_bar = {
-    background = '#2a1745',
-    new_tab = {
-        bg_color = '#3d2363',
-        fg_color = "#808080",
-    }
-    },
-}
+config.color_scheme = "Catppuccin Mocha"
+-- config.colors = {
+--     background = '#100F0F',
+--     tab_bar = {
+--     background = '#2a1745',
+--     new_tab = {
+--         bg_color = '#3d2363',
+--         fg_color = "#808080",
+--     }
+--     },
+-- }
 
 config.window_padding = {left = 1, right = 0, top = 0, bottom = 0}
 config.use_fancy_tab_bar = false
