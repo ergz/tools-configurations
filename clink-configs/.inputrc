@@ -1,3 +1,5 @@
 "\e[1;5A": win-history-list
 "\t": complete
 "\C-\t": clink-select-complete  
+"\e[1;7A": clink-popup-directories
+

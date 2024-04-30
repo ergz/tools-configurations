@@ -97,15 +97,18 @@ color.readonly = sgr 38;5;28
 # type: color
 # color.selected_completion = sgr 38;5;16;48;5;254
 # color.selected_completion = underline dark gray on bright white
-color.selected_completion = sgr 1;38;5;240;48;5;7
+color.selected_completion = sgr 1;38;5;0;48;5;7
 
 # name: Selection color
 # type: color
 color.selection = sgr 38;5;16;48;5;179
-
+# color.selection_foreground = bright white
+# color.selection_background = blue
 # name: Color for suggestion text
 # type: color
 color.suggestion = sgr 1;38;5;241
+
+color.popup = sgr 38;5;0;48;5;250
 
 # name: Unexpected argument color
 # type: color
