@@ -62,6 +62,10 @@ config.font_size = 15
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
 config.color_scheme = "Catppuccin Mocha"
+config.colors = {
+    cursor_bg = "springgreen",
+    cursor_fg = "black",
+}
 -- config.colors = {
 --     background = '#100F0F',
 --     tab_bar = {
