@@ -53,9 +53,13 @@ if hostname == "tower" then
     config.initial_cols = 80 * 1
 elseif hostname == "eman17" then
     config.default_cwd = "D:\\"
-    config.initial_rows = 24
-    config.initial_cols = 80
+    config.initial_rows = 2000
+    config.initial_cols = 1500
+elseif hostname == "fw-xps" then
+    config.initial_rows = 24 * 2
+    config.initial_cols = 80 * 2
 end
+
 config.default_prog = {"cmd.exe", "/K", "C:\\Users\\emanuel\\apps\\bats\\doskeys.bat"}
 config.font = wezterm.font "CaskaydiaMono Nerd Font"
 config.font_size = 15
@@ -89,6 +93,26 @@ config.keys = {
       action = "ReloadConfiguration",
     },
   }
+
+config.mouse_bindings = {
+  -- Ctrl + Click to open links using the system default browser
+    {
+      event={Up={streak=1, button="Left"}},
+      mods="NONE",
+      action=act.CompleteSelection("PrimarySelection"),
+    },
+    {
+    event = { Up = { streak = 1, button = 'Left' } },
+    mods = 'CTRL',
+    action = act.OpenLinkAtMouseCursor,
+    },
+    {
+      event = { Down = { streak = 1, button = 'Left' } },
+      mods = 'CTRL',
+      action = act.Nop,
+    }
+}
+
 
 return config
 
