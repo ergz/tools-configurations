@@ -104,6 +104,8 @@ config.keys = {
     },
   }
 
+config.audible_bell = "Disabled"
+
 config.mouse_bindings = {
   -- Ctrl + Click to open links using the system default browser
     {
@@ -122,7 +124,6 @@ config.mouse_bindings = {
       action = act.Nop,
     }
 }
-
 
 return config
 
