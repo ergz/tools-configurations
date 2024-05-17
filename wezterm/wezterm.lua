@@ -49,8 +49,8 @@ end
 
 if hostname == "tower" then
     config.default_cwd = "D:\\"
-    config.initial_rows = 24 * 1
-    config.initial_cols = 80 * 1
+    config.initial_rows = 24 * 2
+    config.initial_cols = 80 * 2
 elseif hostname == "eman17" then
     config.default_cwd = "D:\\"
     config.initial_rows = 2000
