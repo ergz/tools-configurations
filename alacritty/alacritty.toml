@@ -29,7 +29,7 @@ family = "CaskaydiaMono Nerd Font"
 style = "Regular"
 
 [shell]
-program = "cmd.exe - /K C:/Users/emanuel/apps/bats/doskeys.bat"
+program = "cmd.exe"
 
 [window]
 decorations = "full"

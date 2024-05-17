@@ -31,6 +31,15 @@ local wsl_domains = {
         },
         -- Add more WSL domains for "eman17" if needed
     },
+    ["fw-xps"] = {
+        {
+            name = 'WSL:Ubuntu-20.04',
+            distribution = 'Ubuntu',
+            default_cwd = "/mnt/c/Users/emanuel"
+        },
+        -- Add more WSL domains for "eman17" if needed
+    }
+
 }
 
 -- Set the WSL domains based on the hostname
@@ -83,6 +92,7 @@ config.colors = {
 
 config.window_padding = {left = 1, right = 0, top = 0, bottom = 0}
 config.use_fancy_tab_bar = false
+config.audible_bell = "Disabled"
 
 config.keys = {
 
