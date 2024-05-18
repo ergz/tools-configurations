@@ -17,8 +17,8 @@ local wsl_domains = {
             default_cwd = "/mnt/c/Users/emanuel"
         },
         {
-            name = "WSL:Ubuntu-22.04", 
-            distribution = "Ubuntu-22.04", 
+            name = "WSL:Ubuntu-22.04",
+            distribution = "Ubuntu-22.04",
             default_cwd = "~"
         }
         -- Add more WSL domains for "tower" if needed
@@ -69,25 +69,21 @@ elseif hostname == "fw-xps" then
     config.initial_cols = 80 * 2
 end
 
-config.default_prog = {"cmd.exe", "/K", "C:\\Users\\emanuel\\apps\\bats\\doskeys.bat"}
+config.default_prog = {"cmd.exe"}
 config.font = wezterm.font "CaskaydiaMono Nerd Font"
 config.font_size = 15
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 config.default_cursor_style = "SteadyBlock"
-config.color_scheme = "Catppuccin Mocha"
-config.colors = {
-    cursor_bg = "springgreen",
-    cursor_fg = "black",
-}
+config.color_scheme = 'Catppuccin Mocha'
 -- config.colors = {
---     background = '#100F0F',
---     tab_bar = {
---     background = '#2a1745',
---     new_tab = {
---         bg_color = '#3d2363',
---         fg_color = "#808080",
---     }
---     },
+--     background = '#181818',
+--     -- tab_bar = {
+--     -- background = '#2a1745',
+--     -- new_tab = {
+--     --     bg_color = '#3d2363',
+--     --     fg_color = "#808080",
+--     -- }
+--     -- },
 -- }
 
 config.window_padding = {left = 1, right = 0, top = 0, bottom = 0}
