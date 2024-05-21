@@ -19,7 +19,7 @@
         {
           "foreground": "#81A1C1",
           "properties": {
-            "style": "full"
+            "style": "unique"
           },
           "style": "plain",
           "template": "{{ .Path }} ",
