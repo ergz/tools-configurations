@@ -98,6 +98,21 @@ config.keys = {
       mods = "CTRL|SHIFT",
       action = "ReloadConfiguration",
     },
+    {
+        key = "a", 
+        mods = "CTRL",
+        action = wezterm.action.SendKey {
+            key = "Home"
+        }
+    },
+    {
+        key = "e", 
+        mods = "CTRL",
+        action = wezterm.action.SendKey {
+            key = "End"
+        }
+    }
+
   }
 
 config.audible_bell = "Disabled"
