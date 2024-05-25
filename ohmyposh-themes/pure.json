@@ -4,6 +4,12 @@
     {
       "alignment": "left",
       "segments": [
+    {
+      "type": "os",
+      "style": "plain",
+      "foreground": "#1aabc4",
+      "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} "
+    },
         {
           "type": "python",
           "style": "plain",
@@ -13,7 +19,7 @@
         {
           "foreground": "#BF616A",
           "style": "plain",
-          "template": "<#008cff>\uf17a</> {{ .UserName }} ",
+          "template": "{{ .UserName }} ",
           "type": "session"
         },
         {
